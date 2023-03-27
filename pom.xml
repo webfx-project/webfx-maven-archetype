@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.webfx</groupId>
-    <artifactId>webfx-archetype</artifactId>
+    <artifactId>webfx-maven-archetype</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
-    <name>WebFX Archetype</name>
+    <name>WebFX Maven Archetype</name>
     <url>https://webfx.dev</url>
 
     <properties>

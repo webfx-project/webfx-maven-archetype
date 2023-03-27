@@ -6,7 +6,7 @@ Provides a WebFX project template. Prevents the need for the WebFX CLI to be ins
 
 
 ## Usage
-### 1) Install the WebFX Maven Archetype to the local Maven repository:
+### 1. Install the WebFX Maven Archetype to the local Maven repository:
 
 ```sh
 mkdir -vp webfx-maven-archetype
@@ -15,7 +15,9 @@ git clone https://github.com/webfx-project/webfx-maven-archetype.git .
 mvn install
 ```
 
-### 2) Now build a new WebFX project from the archetype:
+### 2. Now build a new WebFX project from the archetype:
 ```sh
+mkdir -vp ~/my-new-webfx-project
+cd ~/my-new-webfx-project
 mvn archetype:generate -DarchetypeGroupId=dev.webfx -DarchetypeArtifactId=webfx-maven-archetype -DarchetypeVersion=1.0-SNAPSHOT
 ```
