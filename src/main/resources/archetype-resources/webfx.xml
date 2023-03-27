@@ -2,6 +2,7 @@
 <project>
 
     <parent name="webfx-parent"/>
+
     <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
